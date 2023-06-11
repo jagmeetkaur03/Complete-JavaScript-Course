@@ -1,0 +1,13 @@
+function percentageOfWorld1(population){
+  return (population / 7900) * 100;
+}
+
+const percentageOfWorld2 = function (population) {
+  return (population / 7900) * 100;
+};
+
+const percentageIndia = percentageOfWorld1(1200);
+const percentageAsia = percentageOfWorld1(2400);
+const percentageAmerica = percentageOfWorld1(5000);
+console.log(percentageIndia, percentageAsia, percentageAmerica);
+

@@ -1,0 +1,10 @@
+const continent = 'Asia';
+const country = 'India';
+const language = 'Hindi';
+let population = 150;
+console.log(population / 2);
+population++;
+console.log(population);
+console.log(population > 6);
+console.log(population < 33);
+const description = console.log(country + ' is in '+ continent +', and its '+ population +' million people speak '+ language);

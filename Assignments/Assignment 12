@@ -1,0 +1,8 @@
+'use strict';
+function describeCountry(country, population, capitalCity){
+  const data = `${country} has ${population} million people and its captial city is ${capitalCity}`;
+  return data;
+}
+
+const values = describeCountry('Finland', 6, 'Helsinki');
+console.log(values);
